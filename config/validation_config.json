@@ -1,0 +1,6 @@
+{
+    "classifier_model_path" : "./saved_models/best_gamma_regressor_with_pooling.pkl",
+    "gamma_model_path" : "./saved_models/best_rf_gamma_with_pooling.pkl",
+    "validation_txt":"./intermediate_results/temp_9_images.txt",
+    "output_csv_path" : "./output/gbt_validation_gamma_only_regressor_9_images.csv"
+}

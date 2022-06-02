@@ -1,0 +1,15 @@
+{
+    "data_csv_path":"./intermediate_results/train_aug_syn.csv",
+    "brightness_classifier_model":"rf",
+    "cross_validation":2,
+    "classifier_params":{
+        "classifier__max_depth": [5,7,9],
+        "classifier__min_samples_split": [ 4, 5],
+        "classifier__n_estimators": [50,70,80]    
+    },
+    "gamma_params":{
+        "gamma__gammaDimValue":[1.1,1.8],
+        "gamma__gammaBrightValue":[0.8,0.3]
+    },
+    "saved_model_dir":"./saved_models/"
+}
